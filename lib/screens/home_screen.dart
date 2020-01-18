@@ -91,22 +91,20 @@ class _HomeScreenState extends State<HomeScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.search,
-              size: 30.0,
+              FontAwesomeIcons.searchDollar,
             ),
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.local_pizza,
-              size: 30.0,
+              FontAwesomeIcons.table,
             ),
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
             icon: CircleAvatar(
               radius: 15.0,
-              backgroundImage: NetworkImage('http://i.imgur.com/zL4Krbz.jpg'),
+              backgroundImage: NetworkImage('https://scontent-dus1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/26225635_398403993934429_2781955308094750720_n.jpg?_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=ZlWf0IkV_2wAX_IPh0z&oh=cfdfa9903a90e16a0bf78ff8da128427&oe=5E9BCA0C'),
             ),
             title: SizedBox.shrink(),
           )

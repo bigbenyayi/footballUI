@@ -60,7 +60,7 @@ class _TeamScreenState extends State<TeamScreen> {
                     IconButton(
                       icon: Icon(Icons.arrow_back),
                       iconSize: 30.0,
-                      color: Colors.black,
+                      color: Colors.white,
                       onPressed: () => Navigator.pop(context),
                     ),
                     Row(
@@ -68,13 +68,13 @@ class _TeamScreenState extends State<TeamScreen> {
                         IconButton(
                           icon: Icon(Icons.search),
                           iconSize: 30.0,
-                          color: Colors.black,
+                          color: Colors.white,
                           onPressed: () => Navigator.pop(context),
                         ),
                         IconButton(
                           icon: Icon(FontAwesomeIcons.sortAmountDown),
                           iconSize: 25.0,
-                          color: Colors.black,
+                          color: Colors.white,
                           onPressed: () => Navigator.pop(context),
                         ),
                       ],
@@ -100,7 +100,7 @@ class _TeamScreenState extends State<TeamScreen> {
                     Row(
                       children: <Widget>[
                         Icon(
-                          FontAwesomeIcons.locationArrow,
+                          FontAwesomeIcons.tshirt,
                           size: 15.0,
                           color: Colors.white70,
                         ),
@@ -115,15 +115,6 @@ class _TeamScreenState extends State<TeamScreen> {
                       ],
                     ),
                   ],
-                ),
-              ),
-              Positioned(
-                right: 20.0,
-                bottom: 20.0,
-                child: Icon(
-                  Icons.location_on,
-                  color: Colors.white70,
-                  size: 25.0,
                 ),
               ),
             ],
@@ -169,14 +160,14 @@ class _TeamScreenState extends State<TeamScreen> {
                                 Column(
                                   children: <Widget>[
                                     Text(
-                                      '\$${activity.price}',
+                                      '${activity.score}',
                                       style: TextStyle(
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.w600,
                                       ),
                                     ),
                                     Text(
-                                      'per pax',
+                                      'La Liga',
                                       style: TextStyle(
                                         color: Colors.grey,
                                       ),
@@ -186,7 +177,7 @@ class _TeamScreenState extends State<TeamScreen> {
                               ],
                             ),
                             Text(
-                              activity.type,
+                              activity.opponents,
                               style: TextStyle(
                                 color: Colors.grey,
                               ),
@@ -204,7 +195,7 @@ class _TeamScreenState extends State<TeamScreen> {
                                   ),
                                   alignment: Alignment.center,
                                   child: Text(
-                                    activity.startTimes[0],
+                                    activity.qualities[0],
                                   ),
                                 ),
                                 SizedBox(width: 10.0),
@@ -217,7 +208,7 @@ class _TeamScreenState extends State<TeamScreen> {
                                   ),
                                   alignment: Alignment.center,
                                   child: Text(
-                                    activity.startTimes[1],
+                                    activity.qualities[1],
                                   ),
                                 ),
                               ],

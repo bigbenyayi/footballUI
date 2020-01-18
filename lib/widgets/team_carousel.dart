@@ -137,7 +137,7 @@ class TeamCarousel extends StatelessWidget {
                                   Row(
                                     children: <Widget>[
                                       Icon(
-                                        FontAwesomeIcons.locationArrow,
+                                        FontAwesomeIcons.tshirt,
                                         size: 10.0,
                                         color: Colors.white,
                                       ),

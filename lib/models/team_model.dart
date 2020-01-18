@@ -19,29 +19,29 @@ class Team {
 List<Activity> activities = [
   Activity(
       imageUrl: 'assets/images/stmarksbasilica.jpg',
-      name: 'St. Mark\'s Basilica',
-      type: 'Sightseeing Tour',
-      startTimes: ['9:00 am', '11:00 am'],
+      name: 'That Overhead kick',
+      opponents: 'vs Juventus',
+      qualities: ['Air time', 'Flexibility'],
       rating: 5,
-      price: 30,
+      score: '3-1',
       team: 'Juventus'),
   Activity(
     imageUrl: 'assets/images/gondola.jpg',
-    name: 'Walking Tour and Gonadola Ride',
-    type: 'Sightseeing Tour',
-    startTimes: ['11:00 pm', '1:00 pm'],
+    name: 'Those Celebtrations',
+    opponents: 'vs Athletico',
+    qualities: ['Bold', 'Funny'],
     rating: 4,
-    price: 210,
+    score: '4-0',
     team: 'Barcelona',
   ),
   Activity(
       imageUrl: 'assets/images/murano.jpg',
-      name: 'Murano and Burano Tour',
-      type: 'Sightseeing Tour',
-      startTimes: ['12:30 pm', '2:00 pm'],
-      rating: 3,
-      price: 125,
-      team: 'Juventus'),
+      name: 'The World Cup freekick',
+      opponents: 'vs Spain',
+      qualities: ['Control', 'Power'],
+      rating: 5,
+      score: '3-3',
+      team: 'Montpellier'),
 ];
 
 List<Team> destinations = [
@@ -61,9 +61,9 @@ List<Team> destinations = [
   ),
   Team(
     imageUrl: 'assets/images/newdelhi.jpg',
-    city: 'New Delhi',
-    country: 'India',
-    description: 'Visit New Delhi for an amazing and unforgettable adventure.',
+    city: 'Delort',
+    country: '9',
+    description: 'Give him 3 big chances, he will score you one.',
     activities: activities,
   ),
   Team(
